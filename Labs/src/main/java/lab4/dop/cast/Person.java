@@ -1,0 +1,16 @@
+package lab4.dop.cast;
+
+public class Person {
+    String name;
+
+    public Person(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                '}';
+    }
+}
